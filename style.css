@@ -198,3 +198,26 @@ footer{
     left: 0;
     bottom: 0;
 }
+@media (max-width: 768px) {
+  div .row {
+    display: block;
+    height: auto;
+  }
+  div .col {
+    width: 90vw;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .Aimg {
+    width: 80vw;
+    height: auto;
+  }
+  .Aimg:hover {
+    width: 85vw;
+  }
+}
+
